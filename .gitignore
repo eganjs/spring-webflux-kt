@@ -1,0 +1,8 @@
+# Ignore everything, "unblacklist" directories and whitelist gitignore
+*
+!*/
+!.gitignore
+
+# Whitelist the "good" file types
+!pom.xml
+!*.kt
